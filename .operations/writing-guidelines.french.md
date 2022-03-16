@@ -16,11 +16,11 @@ En plus d'être d'une grande fiabilité et d'une grande qualité rédactionnelle
 
 ## 4. Formatage cohérent
 
-Le contenu est présenté à l'aide de modèles prédéfinis. Tout contenu futur doit être conforme au même modèle. Si vous souhaitez ajouter de nouveaux points, copiez le format d'un point existant et complétez-le selon vos besoins. Pour plus d'informations, veuillez consulter [ce modèle](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/template.md).
+Le contenu est présenté à l'aide de modèles prédéfinis. Tout contenu futur doit être conforme au même modèle. Si vous souhaitez ajouter de nouveaux points, copiez le format d'un point existant et complétez-le selon vos besoins. Pour plus d'informations, veuillez consulter [ce modèle](../sections/template.md).
 
 ## 5. C'est à propos de Node.js
 
-Chaque conseil doit être directement lié à Node.js et non au développement de logiciels en général. Lorsque nous conseillons d'implémenter un modèle/une règle générique dans Node.js, le contenu doit se concentrer sur l'implémentation dans Node. Par exemple, lorsque nous conseillons de nettoyer toutes les requêtes saisies pour des raisons de sécurité, il convient d'utiliser Node-lingo - ‘Utiliser un middleware pour nettoyer les requêtes saisies’. Si un élément n'a pas d'implémentation spécifique dans Node.js (par exemple, il est identique dans Python & Jaba) - incluez-le dans un élément de conteneur générique, voir l'article 6.5 par exemple.
+Chaque conseil doit être directement lié à Node.js et non au développement de logiciels en général. Lorsque nous conseillons d'implémenter un modèle/une règle générique dans Node.js, le contenu doit se concentrer sur l'implémentation dans Node. Par exemple, lorsque nous conseillons de nettoyer toutes les requêtes saisies pour des raisons de sécurité, il convient d'utiliser Node-lingo - ‘Utiliser un middleware pour nettoyer les requêtes saisies’. Si un élément n'a pas d'implémentation spécifique dans Node.js (par exemple, il est identique dans Python & Java) - incluez-le dans un élément de conteneur générique, voir l'article 6.5 par exemple.
 
 ## 6. Uniquement les fournisseurs majeurs
 

@@ -51,7 +51,7 @@ test('Should be classified as premium', () => {
 
  [From the blog "30 Node.js testing best practices" by Yoni Goldberg](https://medium.com/@me_37286/yoni-goldberg-javascript-nodejs-testing-best-practices-2b98924c9347)
 
- ![A test report example](/assets/images/6-parts-in-test.jpg "A test report example")
+ ![A test report example](../../assets/images/6-parts-in-test.jpg "A test report example")
 
 <br/><br/>
 
@@ -60,6 +60,19 @@ From the book [XUnit Patterns](http://xunitpatterns.com/Four%20Phase%20Test.html
 
 > It is important for the test reader to be able to quickly determine what behavior the test is verifying. It can be very confusing when various behaviors of the system under test (SUT) are being invoked, some to set up the pre-test state (fixture) of the SUT, others to exercise the SUT and yet others to verify the post-test state of the SUT. Clearly identifying the four phases makes the intent of the test much easier to see.
 
+<br/><br/>
+
+### "A useful technique [...] is that writing the Assert first is a great place to start."
+From the article [Arrange, Act, Assert](https://xp123.com/articles/3a-arrange-act-assert/) by Bill Wake which first observed and named the pattern
+
+> **Where to Begin?**
+>
+> You might think that the Arrange is the natural thing to write first, since it comes first.
+When I’m systematically working through an object’s behaviors, I may write the Act line first. 
+>
+> But a useful technique I learned from Jim Newkirk is that writing the Assert first is a great place to start. When you have a new behavior you know you want to test, Assert First lets you start by asking “Suppose it worked; how would I be able to tell?” With the Assert in place, you can do what Industrial Logic calls “Frame First” and lean on the IDE to “fill in the blanks.” 
+
+<br/><br/>
 
 ### "Once you get used to this pattern, you can read and understand the tests more easily"
 From the book [Unit Testing, Principles, Practices, and Patterns](https://freecontent.manning.com/making-better-unit-tests-part-1-the-aaa-pattern/)

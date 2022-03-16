@@ -107,8 +107,8 @@ class ErrorHandler {
   public async handleError(error: Error, responseStream: Response): Promise<void> {
     await logger.logError(error);
     await fireMonitoringMetric(error);
-    await crashIfUntrustedErrorOrSendResponse(error, responseStream);      
-    };
+    await crashIfUntrustedErrorOrSendResponse(error, responseStream);
+  };
 }
 
 export const handler = new ErrorHandler();
@@ -154,7 +154,7 @@ app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
 </details>
 
 ### Illustration : Les acteurs et le flux du traitement des erreurs
-![alt text](https://github.com/goldbergyoni/nodebestpractices/blob/master/assets/images/error-handling-flow.png "Flux de traitement des erreurs")
+![alt text](../../assets/images/error-handling-flow.png "Flux de traitement des erreurs")
 
 
 ### Citation de blog : « Parfois, les niveaux inférieurs ne peuvent rien faire d'utile, sauf propager l'erreur à leur appelant »

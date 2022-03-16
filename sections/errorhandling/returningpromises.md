@@ -4,7 +4,7 @@
 
 ### One Paragraph Explainer
 
-When an error occurs, whether from a synchronous or asynchronous flow, it's imperative to have a full stacktrace of the error flow. Surprisingly, if an async function returns a promise (e.g., calls other async function)  without awaiting, should an error occur then the caller function won't appear in the stacktrace. This will leave the person who diagnoses the error with partial information - All the more if the error cause lies within that caller function. There is a feature v8 called "zero-cost async stacktraces" that allow stacktraces not to be cut on the most recent `await`. But due to non-trivial implementation details, it will not work if the return value of a function (sync or async) is a promise. So, to avoid holes in stacktraces when returned promises would be rejected, we must always explicitly resolve promises with `await` before returning them from functions
+When an error occurs, whether from a synchronous or asynchronous flow, it's imperative to have a full stacktrace of the error flow. Surprisingly, if an async function returns a promise (e.g. calls other async function)  without awaiting, should an error occur then the caller function won't appear in the stacktrace. This will leave the person who diagnoses the error with partial information - All the more if the error cause lies within that caller function. There is a feature v8 called "zero-cost async stacktraces" that allow stacktraces not to be cut on the most recent `await`. But due to non-trivial implementation details, it will not work if the return value of a function (sync or async) is a promise. So, to avoid holes in stacktraces when returned promises would be rejected, we must always explicitly resolve promises with `await` before returning them from functions
 
 <br/>
 
@@ -137,7 +137,7 @@ Error: with all frames present
 </p>
 </details>
 
-</br>
+<br/>
 
 ### Code Example Anti-pattern #3: direct usage of async callback where sync callback is expected
 
@@ -266,7 +266,7 @@ is why resolving promises before returning them is the best practice for Node.js
 
 ### Notes:
 
-1. One another reason why async stacktrace has such tricky implementation is the limitation that stacktrace
+1. One other reason why async stacktrace has such tricky implementation is the limitation that stacktrace
 must always be built synchronously, on the same tick of event loop <span id="a1">[¹](#1)</span>
 2. Without `await` in `throwAsync` the code would be executed in the same phase of event loop. This is a
 degenerated case when OS **stack** would not get empty and stacktrace be full even without explicitly
@@ -277,9 +277,9 @@ awaited many times in different places
 
 ### References:
   <span id="1">1. </span>[Blog post on zero-cost async stacktraces in v8](https://v8.dev/blog/fast-async)
-  <br>
+  <br/>
 
   <span id="2">2. </span>[Document on zero-cost async stacktraces with mentioned here implementation details](
     https://docs.google.com/document/d/13Sy_kBIJGP0XT34V1CV3nkWya4TwYx9L3Yv45LdGB6Q/edit
   )
-  <br>
+  <br/>
