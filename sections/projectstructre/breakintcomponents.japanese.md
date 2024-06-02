@@ -10,7 +10,7 @@
 
 ### ブログ引用: "Scaling requires scaling of the entire application" (スケーリングにはアプリケーション全体のスケーリングが必要)
 
- ブログ MartinFowler.com より
+ ブログ [MartinFowler.com](https://martinfowler.com/articles/microservices.html) より
 
 > モノリシック・アプリケーションは成功を収めることができますが、人々はモノリシック・アプリケーションに不満を感じるようになってきています - 特に多くのアプリケーションがクラウドにデプロイされるようになってきているためです。変更サイクル同士は連動しています - アプリケーションのごく一部に変更を加えると、モノリス全体を再構築してデプロイする必要があります。時間が経つにつれて、良いモジュール構造を維持することが難しくなり、そのモジュール内の1つのモジュールだけに影響するように変更を維持することが難しくなります。スケーリングでは、アプリケーションの一部だけでなく、アプリケーション全体を拡張する必要があり、多くの場合、より多くのリソースを必要とします。
 
@@ -18,7 +18,7 @@
 
 ### ブログ引用: "So what does the architecture of your application scream?" (では、アプリケーションのアーキテクチャは何を叫んでいるのでしょうか?)
 
- ブログ [uncle-bob](https://8thlight.com/blog/uncle-bob/2011/09/30/Screaming-Architecture.html)  より
+ ブログ [uncle-bob](https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html)  より
 
 > ...図書館の建築を眺めていると、あなたはおそらく壮大な入り口、図書館員のためのエリア、読書エリア、小さな会議室、そしてギャラリーの奥には図書館の本をすべて収納した棚があるのが見えるだろう。その建築は悲鳴を上げるだろう。図書館と。<br/>
 

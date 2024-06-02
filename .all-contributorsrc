@@ -1677,11 +1677,85 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "euberdeveloper",
+      "name": "Eugenio Berretta",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33126163?v=4",
+      "profile": "https://github.com/euberdeveloper",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "soranakk",
+      "name": "soranakk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3930307?v=4",
+      "profile": "https://github.com/soranakk",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "backend-joonyoung",
+      "name": "고준영",
+      "avatar_url": "https://avatars.githubusercontent.com/u/94430145?v=4",
+      "profile": "https://github.com/backend-joonyoung",
+      "contributions": [
+        "content",
+        "code"
+      ]
+    },
+    {
+      "login": "GuilhermePortella",
+      "name": "Guilherme Portella ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59876059?v=4",
+      "profile": "https://github.com/GuilhermePortella",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "Esser50K",
+      "name": "André Esser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18497570?v=4",
+      "profile": "https://www.youtube.com/channel/UCBxzOQd2v9wWfiMDrf_RQ7A",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "ShiChenCong",
+      "name": "Scc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22486446?v=4",
+      "profile": "https://github.com/ShiChenCong",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "mauroaccornero",
+      "name": "Mauro Accornero",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1875822?v=4",
+      "profile": "https://www.mauroaccornero.it",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "no-yan",
+      "name": "no-yan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63000297?v=4",
+      "profile": "https://github.com/no-yan",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "projectName": "nodebestpractices",
   "projectOwner": "goldbergyoni",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "skipCi": true
+  "skipCi": true,
+  "commitConvention": "angular"
 }
